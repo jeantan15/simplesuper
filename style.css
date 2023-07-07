@@ -77,7 +77,7 @@ header.sticky ul li a
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(2.jpg);
+    background: url(123.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -85,25 +85,27 @@ header.sticky ul li a
 }
 .banner h2
 {
-    color: #fff;
-    font-size: 80px;
+    color: #ff7300;
+    font-size: 65px;
     text-transform: uppercase;
     text-align: center;
+    
     line-height: 1em;
     font-style: italic;
 }
 .banner h2 span
 {
-    color: #FD1C03;
+    color: #fc49fb;
 }
 .sec
 {
-    background: #fff;
+    background: #fc49fb;
     padding: 100px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .sec .content
 {
@@ -246,7 +248,7 @@ p
 }
 .contactForm .row100 input[type="submit"]
 {
-    background: #fff;
+    background: #fc49fb;
     color: #000;
     max-width: 100px;
     text-transform: uppercase;
@@ -429,7 +431,6 @@ h3
 }
 
  
-
 
 
 
