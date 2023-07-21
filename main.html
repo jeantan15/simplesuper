@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Hello!</title>
+    <meta http-equiv="refresh" content="
+    "; url="https://jeanricotan.com/index.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-     <script language="javascript" type="text/javascript">
+    <script language="javascript" type="text/javascript">
         function DisableBackButton(){
             window.history.forward()
         }
@@ -14,25 +17,6 @@
         window.onunload = function(){ void (0)}
 
     </script>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1197095007542650');
-fbq('track', 'PageView');
-fbq('track', 'SubmitApplication');
-fbq('track', 'ViewContent');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1197095007542650&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -43,8 +27,11 @@ src="https://www.facebook.com/tr?id=1197095007542650&ev=PageView&noscript=1"
             <li><a href="#home" onclick="toggle()">Home</a></li>
             <li><a href="#about"onclick="toggle()">About</a></li>
             <li><a href="#services"onclick="toggle()">Services</a></li>
+            <li><a href="#discussions"onclick="toggle()">Discussions</a></li>
             <li><a href="#portfolio"onclick="toggle()">Join</a></li>
             <li><a href="#contact"onclick="toggle()">Contact</a></li>
+            
+            
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
@@ -102,7 +89,7 @@ src="https://www.facebook.com/tr?id=1197095007542650&ev=PageView&noscript=1"
                 </div>
     </section>
     <!--Stats-->
-    <section class="sec stats">
+    <section class="sec stats" id="discussions">
         <div class="content">
             <div class="mxw800p">
                 <h3><b>Our Mission</b></h3>
@@ -121,6 +108,7 @@ src="https://www.facebook.com/tr?id=1197095007542650&ev=PageView&noscript=1"
                     <h2>Let's plan how we will execute!</h2>
                     <p>After planning the best approach for your business, we'll then discuss how we can execute this effectively together. Remember. I'm on your team now!</p>
                 </div>
+                <a href="discussion.html" class="btn">Read Case Study:</a>
                 </section>
     <!--Portfolio-->
     <section class="sec" id="portfolio">
@@ -199,5 +187,7 @@ src="https://www.facebook.com/tr?id=1197095007542650&ev=PageView&noscript=1"
     </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
 </body>
 </html>
