@@ -104,8 +104,7 @@ header.sticky ul li a
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .sec .content
 {
@@ -137,7 +136,7 @@ p
     position: relative;
     display: inline-block;
     padding: 10px 30px;
-    background: #fc49fb
+    background: #fc49fb;
     text-decoration: none;
     color: #fff;
 }
@@ -341,7 +340,7 @@ cursor: pointer;
         box-shadow: 0 10px 0 #000;
         transition: 0.5s;
     }
-    .toggle:after
+    .toggle: after
     {
         content: '';
         position: absolute;
@@ -394,7 +393,7 @@ header ul li a
 }
 .banner
 {
-    font-size: 60px;
+    font-size 60px;
     padding: 0 50px;
 }
 .sec
